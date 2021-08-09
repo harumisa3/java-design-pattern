@@ -21,13 +21,18 @@ public class Employee {
   }
 
   // 名前のSetter
-  public void setName() {
+  public void setName(String name) {
     this.name = name;
   }
 
   // 年齢のgetter
   public int getAge() {
     return this.age;
+  }
+
+  // 年齢のsetter
+  public void setAge(int age) {
+    this.age = age;
   }
 
   // toString メソッド
