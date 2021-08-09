@@ -7,9 +7,7 @@ public class Pc extends Product {
   private String serialNumber;
 
   public Pc(String serialNumber) {
-    super();
     System.out.println(serialNumber + "のPCを作ります");
-
     this.serialNumber = serialNumber;
   }
 

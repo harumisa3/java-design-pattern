@@ -5,7 +5,6 @@ import com.example.factory_method.factory.Product;
 import com.example.factory_method.pc.PcFactory;
 
 public class Main {
-
   public static void main(String[] args) {
 
     // Factoryインスタンスの生成
