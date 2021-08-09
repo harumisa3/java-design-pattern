@@ -1,7 +1,5 @@
 package com.example.bridge;
 
-import java.util.List;
-
 public class Main {
 
   public static void main(String[] args) {

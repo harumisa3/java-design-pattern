@@ -1,6 +1,5 @@
 package com.example.bridge;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class CustomDisplay extends Display {
