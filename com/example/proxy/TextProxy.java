@@ -48,7 +48,7 @@ public class TextProxy implements Text {
   private synchronized void realize() {
     if (real == null) {
       System.out.println("本人のインスタンスを生成する");
-      real = new RealText(this.filePath);
+      this.real = new RealText(this.filePath);
     }
   }
 }
